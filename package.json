@@ -1,6 +1,6 @@
 {
-  "name": "component-creator",
-  "displayName": "Component Creator",
+  "name": "rapid-react-component",
+  "displayName": "RapidReactComponent",
   "description": "Create full React Component",
   "version": "0.0.1",
   "engines": {
@@ -15,13 +15,13 @@
     "Snippets"
   ],
   "activationEvents": [
-    "onCommand:component-creator.crearArchivos"
+    "onCommand:rapid-react-component.crearArchivos"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "miExtension.crearComponenteReact",
+        "command": "rapid-react-component.crearComponenteReact",
         "title": "Crear componente de React",
         "category": "MiExtensión"
       }
@@ -29,7 +29,7 @@
     "menus": {
       "explorer/context": [
         {
-          "command": "miExtension.crearComponenteReact",
+          "command": "rapid-react-component.crearComponenteReact",
           "when": "resourceScheme == file"
         }
       ]

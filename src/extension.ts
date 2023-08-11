@@ -15,7 +15,7 @@ function convertirACamelCase(texto: string): string {
 
 export function activate(context: vscode.ExtensionContext) {
   let disposable = vscode.commands.registerCommand(
-    "miExtension.crearComponenteReact",
+    "rapid-react-component.crearComponenteReact",
     async (uri: vscode.Uri) => {
       const nombreComponente = await vscode.window.showInputBox({
         prompt: "Nombre del componente?",
