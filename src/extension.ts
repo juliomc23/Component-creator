@@ -59,7 +59,7 @@ export function activate(context: vscode.ExtensionContext) {
 
       switch (tipoCSS) {
         case "Styled-Components":
-          importStyles = `import StyledDiv from './${nombreComponenteMinuscula}.styles.${estiloExtension}';\n`;
+          importStyles = `import {StyledDiv} from './${nombreComponenteMinuscula}.styles.${estiloExtension}';\n`;
           contenidoStyles =
             'import styled from "styled-components";\n\nexport const StyledDiv = styled.div``;\n';
           className = "StyledDiv";
