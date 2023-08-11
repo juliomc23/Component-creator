@@ -1,71 +1,50 @@
-# component-creator README
+# Component Creator for React
 
-This is the README for your extension "component-creator". After writing up a brief description, we recommend including the following sections.
+![version](https://img.shields.io/badge/version-1.0.0-blue)
+
+Component Creator for React es una extensión de VS Code que facilita la creación de componentes React. Automatiza la creación de archivos y carpetas según tus preferencias, permitiéndote centrarte en lo que realmente importa: escribir tu lógica de negocio.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Nombre del Componente**: Pregunta por el nombre del componente y se asegura de que sea CamelCase, sin espacios.
+- **Lenguaje**: Te permite seleccionar entre TypeScript y JavaScript.
+- **Estilos**: Puedes elegir entre Styled-Components, CSS Modules, y CSS nativo para tus archivos de estilo.
+- **Testing**: Opción para crear o no archivos de prueba.
+- **Automatización**: Crea la estructura de archivos automáticamente, incluyendo la importación de estilos y una plantilla básica para el componente.
 
-For example if there is an image subfolder under your extension project workspace:
+## Uso
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Haz clic derecho en el explorador de archivos donde quieres crear el componente.
+2. Selecciona "Crear Componente React" en el menú contextual.
+3. Sigue los prompts para configurar tu componente como desees.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Requisitos
 
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- Visual Studio Code
+- React (para trabajar con los componentes creados)
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+Actualmente, Component Creator for React no expone ninguna configuración adicional.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+No se conocen problemas en este momento.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
+Versión inicial del Component Creator for React.
 
-### 1.0.1
+## Contribución
 
-Fixed issue #.
+Si tienes alguna idea o encuentras un error, por favor [abre un problema](https://github.com/juliomc23/Component-creator) o envía un Pull Request.
 
-### 1.1.0
+## Licencia
 
-Added features X, Y, and Z.
+[MIT](https://github.com/juliomc23/Component-creator)
 
----
+## Agradecimientos
 
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Gracias a todos los que han contribuido al proyecto y a la comunidad de React por inspirar esta herramienta.
